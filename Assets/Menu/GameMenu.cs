@@ -1,16 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class GameMenu : MonoBehaviour
 {
     //Attach your canvas to this variable in inspector
     public GameObject canvasObj;
+    public GameObject bg;
 
     //This will check if your game is paused (we'll set it)
     private bool gamePaused;
 
+    public void backToGame()
+    {
+        canvasObj.SetActive(false);
+        bg.SetActive(false);
+    }
 
     void Update()
     {
@@ -20,9 +25,15 @@ public class GameMenu : MonoBehaviour
 
         //Now we enable and disable the game object!
         if (gamePaused)
+        {
             canvasObj.SetActive(true);
-        else
-            canvasObj.SetActive(false);
+            bg.SetActive(true);
+        }
 
+        else
+        {
+            canvasObj.SetActive(false);
+            bg.SetActive(false);
+        } 
     }
 }
