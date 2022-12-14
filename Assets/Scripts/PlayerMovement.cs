@@ -18,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
 	private Transform player;
 	private float xAngle = 0, yAngle = 0;
 	private int speed;
+	private bool focused;
 
 	void Start() 
 	{
@@ -25,6 +26,7 @@ public class PlayerMovement : MonoBehaviour
 		cam = GetComponent<Camera>();
 		Cursor.lockState = CursorLockMode.Locked;
 		Cursor.visible = false;
+		focused = true;
 		speed = WalkSpeed;
 	}
 
@@ -57,24 +59,27 @@ public class PlayerMovement : MonoBehaviour
 
 	private void Rotate() 
 	{
-		yAngle += Input.GetAxis("Mouse X") * sensitivity;
-		xAngle += Input.GetAxis("Mouse Y") * sensitivity;
+		if (focused) {
+			yAngle += Input.GetAxis("Mouse X") * sensitivity;
+			xAngle += Input.GetAxis("Mouse Y") * sensitivity;
 
-		xAngle = Mathf.Clamp(xAngle, minAngle, maxAngle);
+			xAngle = Mathf.Clamp(xAngle, minAngle, maxAngle);
 
-		transform.localEulerAngles = new Vector3(0, yAngle, 0);
-		cam.transform.localEulerAngles = new Vector3(-xAngle, yAngle, 0);
+			transform.localEulerAngles = new Vector3(0, yAngle, 0);
+			cam.transform.localEulerAngles = new Vector3(-xAngle, yAngle, 0);
 
-		if (Input.GetKeyDown(KeyCode.Escape))
-		{
-			Cursor.lockState = CursorLockMode.Locked;
-			Cursor.visible = false;
+			if (Input.GetKeyDown(KeyCode.Escape))
+			{
+				Cursor.lockState = CursorLockMode.Locked;
+				Cursor.visible = false;
+				focused = false;
+			}
 		}
-
-		if (Cursor.visible && Input.GetMouseButtonDown(1))
+		else if (Input.GetMouseButtonDown(0))
 		{
 			Cursor.lockState = CursorLockMode.Locked;
 			Cursor.visible = false;
+			focused = true;
 		}
 	}
 
