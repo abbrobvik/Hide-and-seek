@@ -7,6 +7,8 @@ public class GameMenu : MonoBehaviour
     //Attach your canvas to this variable in inspector
     public GameObject canvasObj;
     public GameObject bg;
+    public GameObject cam1;
+    public GameObject cam2;
 
     //This will check if your game is paused (we'll set it)
     private bool gamePaused;
@@ -28,12 +30,16 @@ public class GameMenu : MonoBehaviour
         {
             canvasObj.SetActive(true);
             bg.SetActive(true);
+            cam1.SetActive(false);
+            cam2.SetActive(true);
         }
 
         else
         {
             canvasObj.SetActive(false);
             bg.SetActive(false);
+            cam1.SetActive(true);
+            cam2.SetActive(false);
         } 
     }
 }

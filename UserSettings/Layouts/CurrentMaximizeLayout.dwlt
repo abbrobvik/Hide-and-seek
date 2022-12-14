@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 8680
+  controlID: 20227
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -88,7 +88,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 8681
+  controlID: 20228
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -168,7 +168,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 8682
+  controlID: 20229
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -228,7 +228,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: f4a8ffff84d5ffff84d6ffffd2d7ffff02d8ffff34d8ffff64d8ffff9cd8ffffd0d8fffffad8ffff14d9ffffaed9ffff6addffff7edeffff38fbffff305a0000de6e0000207500005685000044a60000
+      m_ExpandedIDs: 6a6afeff4273feff6084feff6422ffffa82effff6c32ffff9850fffff4a8ffff84d5ffff84d6ffffd2d7ffff02d8ffff34d8ffff64d8ffff9cd8ffffd0d8fffffad8ffff14d9ffffaed9ffff6addffff7edeffff38fbffff305a0000de6e0000207500005685000044a60000da6101004e650100b0660100ca660100066801000c890200
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -312,8 +312,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -98.66669, y: -26}
+      snapOffset: {x: -101, y: -26}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -323,9 +323,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -141, y: 149}
+      snapOffset: {x: -141, y: -196.33331}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 1
+      snapCorner: 3
       id: unity-grid-and-snap-toolbar
       index: 1
       layout: 1
@@ -399,7 +399,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 1
       collapsed: 0
-      displayed: 0
+      displayed: 1
       snapOffset: {x: -192.33325, y: -140.66669}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
@@ -537,9 +537,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 3708.4653, y: -1059.138, z: -292.7353}
+    m_Target: {x: -29.562134, y: 56.20839, z: -170.75917}
     speed: 2
-    m_Value: {x: 3708.4653, y: -1059.138, z: -292.7353}
+    m_Value: {x: -29.562134, y: 56.20839, z: -170.75917}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -586,13 +586,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.108041346, y: -0.690295, z: 0.10538075, w: -0.70763904}
+    m_Target: {x: -0.07542546, y: 0.72781456, z: -0.081130624, w: -0.676811}
     speed: 2
-    m_Value: {x: -0.10803928, y: -0.6902818, z: 0.10537874, w: -0.70762557}
+    m_Value: {x: -0.07542546, y: 0.7278146, z: -0.08113063, w: -0.67681104}
   m_Size:
-    m_Target: 2243.7856
+    m_Target: 784.72705
     speed: 2
-    m_Value: 2243.7856
+    m_Value: 784.72705
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -697,7 +697,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
+    scrollPos: {x: 0, y: 188.33334}
     m_SelectedIDs: 125e0000
     m_LastClickedID: 24082
     m_ExpandedIDs: 00000000085e000000ca9a3bffffff7f
@@ -755,7 +755,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
