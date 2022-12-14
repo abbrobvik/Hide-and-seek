@@ -1401,6 +1401,7 @@ CanvasRenderer:
   m_GameObject: {fileID: 1509311307}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1738891660
 GameObject:
   m_ObjectHideFlags: 0
@@ -1534,6 +1535,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f120a58ea8eea1d4db7c7ab5b21b376c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> parent of 0d60ffb (Game menu)
 =======
 >>>>>>> parent of 0d60ffb (Game menu)
 --- !u!1 &1850522031
@@ -1701,6 +1704,7 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &2066021192
 GameObject:
   m_ObjectHideFlags: 0
@@ -1785,6 +1789,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+>>>>>>> parent of 0d60ffb (Game menu)
 =======
 >>>>>>> parent of 0d60ffb (Game menu)
 --- !u!1 &2111137941
