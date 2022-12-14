@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 9539
+  controlID: 8680
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -53,8 +53,10 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  m_SerializedViewNames: []
-  m_SerializedViewValues: []
+  m_SerializedViewNames:
+  - UnityEditor.DeviceSimulation.SimulatorWindow
+  m_SerializedViewValues:
+  - C:\Users\21robvik\Documents\GitHub\Hide-and-seek\Library\PlayModeViewStates\447f33b3a744d0f43ad97e1c72023074
   m_PlayModeViewName: GameView
   m_ShowGizmos: 0
   m_TargetDisplay: 0
@@ -97,18 +99,18 @@ MonoBehaviour:
       y: 21
       width: 732.6667
       height: 324.66666
-    m_Scale: {x: 1.1711748, y: 1.1711748}
-    m_Translation: {x: 366.33334, y: 162.33334}
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 366.33334, y: 162.33333}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -312.79135
-      y: -138.60727
-      width: 625.5827
-      height: 277.21454
+      x: -366.33334
+      y: -162.33333
+      width: 732.6667
+      height: 324.66666
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1099, y: 518.5}
@@ -141,7 +143,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 9540
+  controlID: 8681
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +168,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 9541
+  controlID: 8682
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,7 +228,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: a09fffffcca0ffffa0a5ffff2aaeffff54b0ffff74b3ffffdac4ffff08d8ffffb6dfffffc2dfffffc6f6ffffaef7ffff38fbffffda600000aab1000096ca000006cb000066cb000038cd000068cd000074cd000048d30000b8d30000eede00005cdf0000
+      m_ExpandedIDs: f4a8ffff84d5ffff84d6ffffd2d7ffff02d8ffff34d8ffff64d8ffff9cd8ffffd0d8fffffad8ffff14d9ffffaed9ffff6addffff7edeffff38fbffff305a0000de6e0000207500005685000044a60000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -300,7 +302,7 @@ MonoBehaviour:
     x: 243.33334
     y: 72.66667
     width: 732.6667
-    height: 339.66666
+    height: 345.66666
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -398,7 +400,7 @@ MonoBehaviour:
       floating: 1
       collapsed: 0
       displayed: 0
-      snapOffset: {x: -192.33331, y: -94.3333}
+      snapOffset: {x: -192.33325, y: -140.66669}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Scene View/Camera
@@ -535,9 +537,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: 3708.4653, y: -1059.138, z: -292.7353}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: 3708.4653, y: -1059.138, z: -292.7353}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -584,13 +586,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.41466424, y: -0.07185867, z: 0.03287151, w: 0.906546}
+    m_Target: {x: -0.108041346, y: -0.690295, z: 0.10538075, w: -0.70763904}
     speed: 2
-    m_Value: {x: 0.41466087, y: -0.071858086, z: 0.032871243, w: 0.90653867}
+    m_Value: {x: -0.10803928, y: -0.6902818, z: 0.10537874, w: -0.70762557}
   m_Size:
-    m_Target: 0.8660254
+    m_Target: 2243.7856
     speed: 2
-    m_Value: 0.8660254
+    m_Value: 2243.7856
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -683,22 +685,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Menu
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Menu
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\21robvik\Documents\GitHub\Hide-and-seek
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 625e0000
-    m_LastClickedID: 24162
-    m_ExpandedIDs: 00000000805d000000ca9a3bffffff7f
+    m_SelectedIDs: 125e0000
+    m_LastClickedID: 24082
+    m_ExpandedIDs: 00000000085e000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -726,7 +728,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000805d000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000085e000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -781,7 +783,7 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 207
+  m_DirectoriesAreaWidth: 214
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -829,8 +831,8 @@ MonoBehaviour:
     y: 0
     width: 302
     height: 587.3333
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
