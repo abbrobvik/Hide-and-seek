@@ -1633,7 +1633,7 @@ GameObject:
   - component: {fileID: 79280577}
   - component: {fileID: 79280576}
   - component: {fileID: 79280575}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Golv
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16638,10 +16638,10 @@ MonoBehaviour:
   NetworkConfig:
     ProtocolVersion: 0
     NetworkTransport: {fileID: 791323632}
-    PlayerPrefab: {fileID: 8117129160293025784, guid: d40948dd64ce715cc95d227d32f506ce, type: 3}
+    PlayerPrefab: {fileID: 3597250606305381936, guid: d2cbc6c5ddb604a41828e3c46b8e68e5, type: 3}
     NetworkPrefabs:
     - Override: 0
-      Prefab: {fileID: 8117129160293025784, guid: d40948dd64ce715cc95d227d32f506ce, type: 3}
+      Prefab: {fileID: 3597250606305381936, guid: d2cbc6c5ddb604a41828e3c46b8e68e5, type: 3}
       SourcePrefabToOverride: {fileID: 0}
       SourceHashToOverride: 0
       OverridingTargetPrefab: {fileID: 0}
