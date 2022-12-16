@@ -461,6 +461,7 @@ GameObject:
   - component: {fileID: 29311374}
   - component: {fileID: 29311376}
   - component: {fileID: 29311375}
+  - component: {fileID: 29311377}
   m_Layer: 0
   m_Name: Office Chair_REX (6)
   m_TagString: Untagged
@@ -535,6 +536,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 29311373}
+  m_Mesh: {fileID: 5494731580726597765, guid: 40bfc2203dc449646804d33b54b6c67d, type: 3}
+--- !u!64 &29311377
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 29311373}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 5494731580726597765, guid: 40bfc2203dc449646804d33b54b6c67d, type: 3}
 --- !u!1 &30500645
 GameObject:
@@ -1542,7 +1557,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 0c18f0ffd4318a149bd680cdf60d0e48, type: 3}
 --- !u!1001 &68783365
@@ -1806,6 +1821,7 @@ GameObject:
   - component: {fileID: 79846447}
   - component: {fileID: 79846449}
   - component: {fileID: 79846448}
+  - component: {fileID: 79846450}
   m_Layer: 0
   m_Name: Office Chair_REX (10)
   m_TagString: Untagged
@@ -1881,6 +1897,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 79846446}
   m_Mesh: {fileID: 5494731580726597765, guid: 40bfc2203dc449646804d33b54b6c67d, type: 3}
+--- !u!64 &79846450
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79846446}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5494731580726597765, guid: 40bfc2203dc449646804d33b54b6c67d, type: 3}
 --- !u!1 &81703099
 GameObject:
   m_ObjectHideFlags: 0
@@ -1892,6 +1922,7 @@ GameObject:
   - component: {fileID: 81703100}
   - component: {fileID: 81703102}
   - component: {fileID: 81703101}
+  - component: {fileID: 81703103}
   m_Layer: 0
   m_Name: Cube.001 (5)
   m_TagString: Untagged
@@ -1963,6 +1994,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 81703099}
+  m_Mesh: {fileID: 4493585093827132993, guid: 503826efd1bfbed4b87ee8911d0c70ae, type: 3}
+--- !u!64 &81703103
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81703099}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4493585093827132993, guid: 503826efd1bfbed4b87ee8911d0c70ae, type: 3}
 --- !u!1 &83822886
 GameObject:
@@ -4410,7 +4455,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: b2f590637bb1b5044877c0b3e9db9094, type: 3}
 --- !u!1 &173101554
@@ -5457,6 +5502,7 @@ GameObject:
   - component: {fileID: 185792362}
   - component: {fileID: 185792364}
   - component: {fileID: 185792363}
+  - component: {fileID: 185792365}
   m_Layer: 0
   m_Name: Office Chair_REX (14)
   m_TagString: Untagged
@@ -5531,6 +5577,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 185792361}
+  m_Mesh: {fileID: 5494731580726597765, guid: 40bfc2203dc449646804d33b54b6c67d, type: 3}
+--- !u!64 &185792365
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185792361}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 5494731580726597765, guid: 40bfc2203dc449646804d33b54b6c67d, type: 3}
 --- !u!1001 &186226269
 PrefabInstance:
@@ -6047,6 +6107,7 @@ GameObject:
   - component: {fileID: 204003086}
   - component: {fileID: 204003088}
   - component: {fileID: 204003087}
+  - component: {fileID: 204003089}
   m_Layer: 0
   m_Name: Cube.001 (2)
   m_TagString: Untagged
@@ -6118,6 +6179,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 204003085}
+  m_Mesh: {fileID: 4493585093827132993, guid: 503826efd1bfbed4b87ee8911d0c70ae, type: 3}
+--- !u!64 &204003089
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204003085}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4493585093827132993, guid: 503826efd1bfbed4b87ee8911d0c70ae, type: 3}
 --- !u!1001 &204671614
 PrefabInstance:
@@ -6417,7 +6492,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: b2f590637bb1b5044877c0b3e9db9094, type: 3}
 --- !u!1001 &210414176
@@ -7250,6 +7325,7 @@ GameObject:
   - component: {fileID: 228036573}
   - component: {fileID: 228036575}
   - component: {fileID: 228036574}
+  - component: {fileID: 228036576}
   m_Layer: 0
   m_Name: Office Chair_REX (9)
   m_TagString: Untagged
@@ -7324,6 +7400,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 228036572}
+  m_Mesh: {fileID: 5494731580726597765, guid: 40bfc2203dc449646804d33b54b6c67d, type: 3}
+--- !u!64 &228036576
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228036572}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 5494731580726597765, guid: 40bfc2203dc449646804d33b54b6c67d, type: 3}
 --- !u!1001 &230848630
 PrefabInstance:
@@ -7700,6 +7790,7 @@ GameObject:
   - component: {fileID: 238499001}
   - component: {fileID: 238499003}
   - component: {fileID: 238499002}
+  - component: {fileID: 238499004}
   m_Layer: 0
   m_Name: Office Chair_REX (3)
   m_TagString: Untagged
@@ -7774,6 +7865,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 238499000}
+  m_Mesh: {fileID: 5494731580726597765, guid: 40bfc2203dc449646804d33b54b6c67d, type: 3}
+--- !u!64 &238499004
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238499000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 5494731580726597765, guid: 40bfc2203dc449646804d33b54b6c67d, type: 3}
 --- !u!1 &240222108
 GameObject:
@@ -12399,6 +12504,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2608de6dfe85eb04ea612777c7919d23, type: 3}
+--- !u!1 &385923254 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2608de6dfe85eb04ea612777c7919d23, type: 3}
+  m_PrefabInstance: {fileID: 385923253}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &385923255
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385923254}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -462981019419857548, guid: 2608de6dfe85eb04ea612777c7919d23, type: 3}
 --- !u!1001 &386521902
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16321,6 +16445,7 @@ GameObject:
   - component: {fileID: 514770140}
   - component: {fileID: 514770142}
   - component: {fileID: 514770141}
+  - component: {fileID: 514770143}
   m_Layer: 0
   m_Name: Cube.001 (10)
   m_TagString: Untagged
@@ -16392,6 +16517,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 514770139}
+  m_Mesh: {fileID: 4493585093827132993, guid: 503826efd1bfbed4b87ee8911d0c70ae, type: 3}
+--- !u!64 &514770143
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 514770139}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4493585093827132993, guid: 503826efd1bfbed4b87ee8911d0c70ae, type: 3}
 --- !u!1 &517232862
 GameObject:
@@ -19032,6 +19171,7 @@ GameObject:
   - component: {fileID: 587902484}
   - component: {fileID: 587902486}
   - component: {fileID: 587902485}
+  - component: {fileID: 587902487}
   m_Layer: 0
   m_Name: Office Chair_REX (8)
   m_TagString: Untagged
@@ -19106,6 +19246,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 587902483}
+  m_Mesh: {fileID: 5494731580726597765, guid: 40bfc2203dc449646804d33b54b6c67d, type: 3}
+--- !u!64 &587902487
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587902483}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 5494731580726597765, guid: 40bfc2203dc449646804d33b54b6c67d, type: 3}
 --- !u!1001 &591047603
 PrefabInstance:
@@ -24234,7 +24388,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: b2f590637bb1b5044877c0b3e9db9094, type: 3}
 --- !u!1 &765660810
@@ -24710,7 +24864,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 5482ee8af0d724341b96cd2c062f6baf, type: 3}
 --- !u!1001 &787561828
@@ -24877,7 +25031,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: b2f590637bb1b5044877c0b3e9db9094, type: 3}
 --- !u!1001 &791887393
@@ -25301,7 +25455,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: f701747214874ac46a0c4ac184b53cb1, type: 3}
 --- !u!1001 &805720792
@@ -25486,6 +25640,7 @@ GameObject:
   - component: {fileID: 812107530}
   - component: {fileID: 812107532}
   - component: {fileID: 812107531}
+  - component: {fileID: 812107533}
   m_Layer: 0
   m_Name: Office Chair_REX (5)
   m_TagString: Untagged
@@ -25560,6 +25715,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 812107529}
+  m_Mesh: {fileID: 5494731580726597765, guid: 40bfc2203dc449646804d33b54b6c67d, type: 3}
+--- !u!64 &812107533
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812107529}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 5494731580726597765, guid: 40bfc2203dc449646804d33b54b6c67d, type: 3}
 --- !u!1001 &813738735
 PrefabInstance:
@@ -25994,6 +26163,7 @@ GameObject:
   - component: {fileID: 830518925}
   - component: {fileID: 830518927}
   - component: {fileID: 830518926}
+  - component: {fileID: 830518928}
   m_Layer: 0
   m_Name: Office Chair_REX (11)
   m_TagString: Untagged
@@ -26068,6 +26238,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 830518924}
+  m_Mesh: {fileID: 5494731580726597765, guid: 40bfc2203dc449646804d33b54b6c67d, type: 3}
+--- !u!64 &830518928
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830518924}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 5494731580726597765, guid: 40bfc2203dc449646804d33b54b6c67d, type: 3}
 --- !u!1 &831062255
 GameObject:
@@ -26257,7 +26441,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: b2f590637bb1b5044877c0b3e9db9094, type: 3}
 --- !u!1001 &832901544
@@ -28197,6 +28381,7 @@ GameObject:
   - component: {fileID: 893367665}
   - component: {fileID: 893367667}
   - component: {fileID: 893367666}
+  - component: {fileID: 893367668}
   m_Layer: 0
   m_Name: Office Chair_REX (7)
   m_TagString: Untagged
@@ -28271,6 +28456,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 893367664}
+  m_Mesh: {fileID: 5494731580726597765, guid: 40bfc2203dc449646804d33b54b6c67d, type: 3}
+--- !u!64 &893367668
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893367664}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 5494731580726597765, guid: 40bfc2203dc449646804d33b54b6c67d, type: 3}
 --- !u!1 &893838748
 GameObject:
@@ -33837,7 +34036,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: f701747214874ac46a0c4ac184b53cb1, type: 3}
 --- !u!1 &1135861712
@@ -33851,6 +34050,7 @@ GameObject:
   - component: {fileID: 1135861713}
   - component: {fileID: 1135861715}
   - component: {fileID: 1135861714}
+  - component: {fileID: 1135861716}
   m_Layer: 0
   m_Name: Cube.001 (3)
   m_TagString: Untagged
@@ -33922,6 +34122,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1135861712}
+  m_Mesh: {fileID: 4493585093827132993, guid: 503826efd1bfbed4b87ee8911d0c70ae, type: 3}
+--- !u!64 &1135861716
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135861712}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4493585093827132993, guid: 503826efd1bfbed4b87ee8911d0c70ae, type: 3}
 --- !u!1 &1135905259
 GameObject:
@@ -34355,6 +34569,7 @@ GameObject:
   - component: {fileID: 1153870450}
   - component: {fileID: 1153870452}
   - component: {fileID: 1153870451}
+  - component: {fileID: 1153870453}
   m_Layer: 0
   m_Name: Cube.001 (11)
   m_TagString: Untagged
@@ -34426,6 +34641,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1153870449}
+  m_Mesh: {fileID: 4493585093827132993, guid: 503826efd1bfbed4b87ee8911d0c70ae, type: 3}
+--- !u!64 &1153870453
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153870449}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4493585093827132993, guid: 503826efd1bfbed4b87ee8911d0c70ae, type: 3}
 --- !u!1001 &1154614882
 PrefabInstance:
@@ -34579,6 +34808,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 40bfc2203dc449646804d33b54b6c67d, type: 3}
   m_PrefabInstance: {fileID: 1155409191}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1155409193 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5834550958388496656, guid: 40bfc2203dc449646804d33b54b6c67d, type: 3}
+  m_PrefabInstance: {fileID: 1155409191}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1155409194
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155409193}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5494731580726597765, guid: 40bfc2203dc449646804d33b54b6c67d, type: 3}
 --- !u!1001 &1159422410
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35717,7 +35965,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: b2f590637bb1b5044877c0b3e9db9094, type: 3}
 --- !u!1001 &1190493596
@@ -37546,6 +37794,7 @@ GameObject:
   - component: {fileID: 1252632973}
   - component: {fileID: 1252632975}
   - component: {fileID: 1252632974}
+  - component: {fileID: 1252632976}
   m_Layer: 0
   m_Name: Office Chair_REX (13)
   m_TagString: Untagged
@@ -37620,6 +37869,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1252632972}
+  m_Mesh: {fileID: 5494731580726597765, guid: 40bfc2203dc449646804d33b54b6c67d, type: 3}
+--- !u!64 &1252632976
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252632972}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 5494731580726597765, guid: 40bfc2203dc449646804d33b54b6c67d, type: 3}
 --- !u!1001 &1254903037
 PrefabInstance:
@@ -37802,6 +38065,7 @@ GameObject:
   - component: {fileID: 1255762659}
   - component: {fileID: 1255762661}
   - component: {fileID: 1255762660}
+  - component: {fileID: 1255762662}
   m_Layer: 0
   m_Name: Cube.001 (4)
   m_TagString: Untagged
@@ -37873,6 +38137,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1255762658}
+  m_Mesh: {fileID: 4493585093827132993, guid: 503826efd1bfbed4b87ee8911d0c70ae, type: 3}
+--- !u!64 &1255762662
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255762658}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4493585093827132993, guid: 503826efd1bfbed4b87ee8911d0c70ae, type: 3}
 --- !u!1 &1257185023
 GameObject:
@@ -38498,6 +38776,7 @@ GameObject:
   - component: {fileID: 1294758911}
   - component: {fileID: 1294758913}
   - component: {fileID: 1294758912}
+  - component: {fileID: 1294758914}
   m_Layer: 0
   m_Name: Office Chair_REX (12)
   m_TagString: Untagged
@@ -38572,6 +38851,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1294758910}
+  m_Mesh: {fileID: 5494731580726597765, guid: 40bfc2203dc449646804d33b54b6c67d, type: 3}
+--- !u!64 &1294758914
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294758910}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 5494731580726597765, guid: 40bfc2203dc449646804d33b54b6c67d, type: 3}
 --- !u!1001 &1295724708
 PrefabInstance:
@@ -39312,7 +39605,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: f701747214874ac46a0c4ac184b53cb1, type: 3}
 --- !u!1 &1323143959
@@ -39699,7 +39992,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 45276210d7d92ae439d4f9ba0fd6f6ba, type: 3}
 --- !u!1001 &1333160007
@@ -41364,7 +41657,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: b2f590637bb1b5044877c0b3e9db9094, type: 3}
 --- !u!1 &1377522034
@@ -42013,6 +42306,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98ea15acd4af41342a8cb5f6a5b31077, type: 3}
+--- !u!1 &1391758568 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1785620586125087470, guid: 98ea15acd4af41342a8cb5f6a5b31077, type: 3}
+  m_PrefabInstance: {fileID: 1391758567}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1391758569
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391758568}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &1394966889
 GameObject:
   m_ObjectHideFlags: 0
@@ -43546,6 +43858,7 @@ GameObject:
   - component: {fileID: 1452481362}
   - component: {fileID: 1452481364}
   - component: {fileID: 1452481363}
+  - component: {fileID: 1452481365}
   m_Layer: 0
   m_Name: Cube.001 (8)
   m_TagString: Untagged
@@ -43617,6 +43930,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1452481361}
+  m_Mesh: {fileID: 4493585093827132993, guid: 503826efd1bfbed4b87ee8911d0c70ae, type: 3}
+--- !u!64 &1452481365
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452481361}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4493585093827132993, guid: 503826efd1bfbed4b87ee8911d0c70ae, type: 3}
 --- !u!1001 &1452576443
 PrefabInstance:
@@ -43708,7 +44035,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: f701747214874ac46a0c4ac184b53cb1, type: 3}
 --- !u!1 &1454587119
@@ -43722,6 +44049,7 @@ GameObject:
   - component: {fileID: 1454587120}
   - component: {fileID: 1454587122}
   - component: {fileID: 1454587121}
+  - component: {fileID: 1454587123}
   m_Layer: 0
   m_Name: Cube.001 (6)
   m_TagString: Untagged
@@ -43793,6 +44121,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1454587119}
+  m_Mesh: {fileID: 4493585093827132993, guid: 503826efd1bfbed4b87ee8911d0c70ae, type: 3}
+--- !u!64 &1454587123
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454587119}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4493585093827132993, guid: 503826efd1bfbed4b87ee8911d0c70ae, type: 3}
 --- !u!1 &1456083132
 GameObject:
@@ -44090,7 +44432,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 0c18f0ffd4318a149bd680cdf60d0e48, type: 3}
 --- !u!1 &1462120578
@@ -46340,7 +46682,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 475310, guid: 34b8a5bfe71cc1844b2d95a6853d2630, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.0469675
+      value: -1.149
       objectReference: {fileID: 0}
     - target: {fileID: 475310, guid: 34b8a5bfe71cc1844b2d95a6853d2630, type: 3}
       propertyPath: m_LocalPosition.y
@@ -46685,7 +47027,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: b2f590637bb1b5044877c0b3e9db9094, type: 3}
 --- !u!1 &1554923270
@@ -48076,6 +48418,7 @@ GameObject:
   - component: {fileID: 1587212087}
   - component: {fileID: 1587212089}
   - component: {fileID: 1587212088}
+  - component: {fileID: 1587212090}
   m_Layer: 0
   m_Name: Cube.001 (7)
   m_TagString: Untagged
@@ -48147,6 +48490,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1587212086}
+  m_Mesh: {fileID: 4493585093827132993, guid: 503826efd1bfbed4b87ee8911d0c70ae, type: 3}
+--- !u!64 &1587212090
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587212086}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4493585093827132993, guid: 503826efd1bfbed4b87ee8911d0c70ae, type: 3}
 --- !u!1001 &1587648400
 PrefabInstance:
@@ -48405,7 +48762,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: b2f590637bb1b5044877c0b3e9db9094, type: 3}
 --- !u!1 &1599277857
@@ -49320,7 +49677,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 0c18f0ffd4318a149bd680cdf60d0e48, type: 3}
 --- !u!1001 &1621217585
@@ -49683,6 +50040,7 @@ GameObject:
   - component: {fileID: 1630953788}
   - component: {fileID: 1630953790}
   - component: {fileID: 1630953789}
+  - component: {fileID: 1630953791}
   m_Layer: 0
   m_Name: Cube.001 (9)
   m_TagString: Untagged
@@ -49754,6 +50112,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1630953787}
+  m_Mesh: {fileID: 4493585093827132993, guid: 503826efd1bfbed4b87ee8911d0c70ae, type: 3}
+--- !u!64 &1630953791
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630953787}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4493585093827132993, guid: 503826efd1bfbed4b87ee8911d0c70ae, type: 3}
 --- !u!1001 &1631665185
 PrefabInstance:
@@ -56002,7 +56374,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 5482ee8af0d724341b96cd2c062f6baf, type: 3}
 --- !u!1001 &1834385974
@@ -56262,7 +56634,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: b2f590637bb1b5044877c0b3e9db9094, type: 3}
 --- !u!1001 &1836211536
@@ -58780,9 +59152,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1965349614}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.968266, y: 15.581626, z: -18.880318}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: 0, w: 0.7071067}
+  m_LocalPosition: {x: 0.09984133, y: 0.09440157, z: 0.077908136}
+  m_LocalScale: {x: 0.005, y: 0.005000001, z: 0.005000001}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1415056323}
@@ -58818,8 +59190,8 @@ Transform:
   - {fileID: 1656955092}
   - {fileID: 1572107446}
   - {fileID: 1995689510}
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 149550336}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1966741770
 PrefabInstance:
@@ -59215,6 +59587,7 @@ GameObject:
   - component: {fileID: 1971306459}
   - component: {fileID: 1971306461}
   - component: {fileID: 1971306460}
+  - component: {fileID: 1971306462}
   m_Layer: 0
   m_Name: Office Chair_REX (2)
   m_TagString: Untagged
@@ -59289,6 +59662,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1971306458}
+  m_Mesh: {fileID: 5494731580726597765, guid: 40bfc2203dc449646804d33b54b6c67d, type: 3}
+--- !u!64 &1971306462
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971306458}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 5494731580726597765, guid: 40bfc2203dc449646804d33b54b6c67d, type: 3}
 --- !u!1 &1972757734
 GameObject:
@@ -60481,7 +60868,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: b2f590637bb1b5044877c0b3e9db9094, type: 3}
 --- !u!1001 &1999920593
@@ -60574,7 +60961,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 5482ee8af0d724341b96cd2c062f6baf, type: 3}
 --- !u!1 &2000725505
@@ -62585,6 +62972,7 @@ GameObject:
   - component: {fileID: 2066637300}
   - component: {fileID: 2066637302}
   - component: {fileID: 2066637301}
+  - component: {fileID: 2066637303}
   m_Layer: 0
   m_Name: Office Chair_REX (1)
   m_TagString: Untagged
@@ -62659,6 +63047,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2066637299}
+  m_Mesh: {fileID: 5494731580726597765, guid: 40bfc2203dc449646804d33b54b6c67d, type: 3}
+--- !u!64 &2066637303
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066637299}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 5494731580726597765, guid: 40bfc2203dc449646804d33b54b6c67d, type: 3}
 --- !u!1001 &2070310000
 PrefabInstance:
@@ -62824,7 +63226,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: b2f590637bb1b5044877c0b3e9db9094, type: 3}
 --- !u!1001 &2072113239
@@ -63550,7 +63952,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: b2f590637bb1b5044877c0b3e9db9094, type: 3}
 --- !u!1001 &2097685604
@@ -63639,6 +64041,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 503826efd1bfbed4b87ee8911d0c70ae, type: 3}
   m_PrefabInstance: {fileID: 2097685604}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2097685606 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -516098083770646512, guid: 503826efd1bfbed4b87ee8911d0c70ae, type: 3}
+  m_PrefabInstance: {fileID: 2097685604}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2097685607
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097685606}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4493585093827132993, guid: 503826efd1bfbed4b87ee8911d0c70ae, type: 3}
 --- !u!1 &2100729230
 GameObject:
   m_ObjectHideFlags: 0
@@ -63807,6 +64228,7 @@ GameObject:
   - component: {fileID: 2105730396}
   - component: {fileID: 2105730398}
   - component: {fileID: 2105730397}
+  - component: {fileID: 2105730399}
   m_Layer: 0
   m_Name: Cube.001 (1)
   m_TagString: Untagged
@@ -63878,6 +64300,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2105730395}
+  m_Mesh: {fileID: 4493585093827132993, guid: 503826efd1bfbed4b87ee8911d0c70ae, type: 3}
+--- !u!64 &2105730399
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105730395}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4493585093827132993, guid: 503826efd1bfbed4b87ee8911d0c70ae, type: 3}
 --- !u!1 &2108975787
 GameObject:
