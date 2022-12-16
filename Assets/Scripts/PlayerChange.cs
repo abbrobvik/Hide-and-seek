@@ -23,7 +23,7 @@ public class PlayerChange : MonoBehaviour
 					Debug.Log("Found playable object");
 					Destroy(GetComponent<MeshFilter>().mesh);
 					GetComponent<MeshFilter>().mesh = obj.GetComponent<MeshFilter>().mesh;
-					//transform.localScale = obj.transform.localScale;
+					transform.localScale = obj.transform.localScale;
 				} else {
 
 				}
